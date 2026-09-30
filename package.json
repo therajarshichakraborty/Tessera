@@ -5,12 +5,15 @@
   "scripts": {
     "build": "turbo run build",
     "test": "turbo run test",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "format": "prettier . --write"
   },
   "devDependencies": {
+    "@changesets/cli": "^2",
+    "@types/prettier": "^3.0.0",
+    "prettier": "^3.9.9",
     "turbo": "^2",
     "typescript": "~5.9.0",
-    "vitest": "^3",
-    "@changesets/cli": "^2"
+    "vitest": "^3"
   }
 }
